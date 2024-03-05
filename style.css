@@ -1,10 +1,12 @@
 *{
     margin: 0px;
+    /* color:white; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 #navbar{
     background-color: black;
     height:60px;
-    
+    display: flex;
 }
 #logo{
     height: 40px;
@@ -12,5 +14,35 @@
     padding: 11px 3px 1px;
     margin: 7px 2px 1px 4px;
     box-sizing: border-box;
-    
 }
+#box2 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: white;
+}
+#loc{
+    margin: 0px 1.5px 18px 20px;
+}
+
+#box3 {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items:flex-start; /* Align items horizontally */
+}
+#txt1{
+    font-size: 12px;
+    color: #ccc;
+    line-height: 30px;
+    height: 14px;
+    font-weight: 300;
+    margin: 4px 0% 0px 0px; /* Add margin for spacing */
+}
+#txt2 {
+    font-size: 14px;
+    line-height: 35px;
+    font-weight: 600;
+    color: white;
+    margin: 0px 0% 0px 0px; /* Add margin for spacing */
+}
+
