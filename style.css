@@ -7,6 +7,7 @@
     background-color: black;
     height:60px;
     display: flex;
+    /* justify-content: space-evenly; */
 }
 #logo{
     height: 40px;
@@ -22,7 +23,7 @@
     color: white;
 }
 #loc{
-    margin: 0px 1.5px 18px 20px;
+    margin: 0px 1.5px 18px 30px;
 }
 
 #box3 {
@@ -44,5 +45,56 @@
     font-weight: 600;
     color: white;
     margin: 0px 0% 0px 0px; /* Add margin for spacing */
+}
+/* box4 */
+#box4{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: orange; */
+    box-sizing: border-box;
+    height: 40px;
+    width: 900px;
+    margin: 10px 20px 5px 20px;
+}
+#inp:focus{
+    outline: none; /* Remove default focus outline */
+    border: 2px solid orange; /* Add orange border when input is focused */
+}
+
+#sel{
+    height: 40px;
+    width: 4.5em;
+    text-align: center;
+    background-color: #E6E6E6;
+    border: 0px;
+    border-top-left-radius: 8%;
+    border-bottom-left-radius: 8%;
+}
+#inp{
+    height: 36.9px;
+    width: 790px;
+    padding: 0px;
+    
+}
+#inp::placeholder{
+    font-size: 15px;
+    text-indent: 5px;
+    
+}
+
+#mag-glass{
+    margin: 0px;
+    height: 40px;
+    width: 45px;
+    border-top-right-radius: 8%;
+    border-bottom-right-radius:8%;
+    background-color: #FEBD69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mag-glass i {
+    font-size: 22px; /* Adjust the font size to set the height of the icon */
 }
 
