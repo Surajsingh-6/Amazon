@@ -97,4 +97,26 @@
 #mag-glass i {
     font-size: 22px; /* Adjust the font size to set the height of the icon */
 }
+/* box6 */
+#box6{
+    color: white;
+    margin: 10px;
+}
+#t1{
+    font-size: 12px;
+    color: #ccc;
+}
 
+/* last nav bar */
+#cart{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#cart i {
+    font-size: 26px;
+}
+#cart p {
+    margin-top: calc(40% - 20px); /* Adjust the margin-top */
+}
