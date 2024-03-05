@@ -1,132 +1,147 @@
 *{
-    margin: 0px;
-    /* color:white; */
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px; /* Reset margin for all elements */
+    /* color:white; */ /* Commented out, doesn't apply any style */
+    font-family: Arial, Helvetica, sans-serif; /* Set default font family for all text */
 }
+
 #navbar{
-    background-color: black;
-    height:60px;
-    display: flex;
-    justify-content: space-evenly;
+    background-color: black; /* Set background color of navbar to black */
+    height:60px; /* Set height of navbar to 60 pixels */
+    display: flex; /* Use flexbox layout for navbar */
+    justify-content: space-evenly; /* Distribute items evenly along the main axis */
 }
+
 #logo{
-    height: 40px;
-    width: 102px;
-    padding: 11px 3px 1px;
-    margin: 7px 2px 1px 4px;
-    box-sizing: border-box;
+    height: 40px; /* Set height of logo to 40 pixels */
+    width: 102px; /* Set width of logo to 102 pixels */
+    padding: 11px 3px 1px; /* Set padding of logo */
+    margin: 7px 2px 1px 4px; /* Set margins of logo */
+    box-sizing: border-box; /* Include padding and border in total width and height of the element */
 }
+
 #box2 {
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    color: white;
+    display: flex; /* Use flexbox layout for box2 */
+    justify-content: center; /* Center content horizontally */
+    align-items: end; /* Align items to the end vertically */
+    color: white; /* Set text color to white */
 }
+
 #loc{
-    margin: 0px 1.5px 18px 30px;
+    margin: 0px 1.5px 18px 30px; /* Set margins of loc */
 }
 
 #box3 {
-    display: flex;
+    display: flex; /* Use flexbox layout for box3 */
     flex-direction: column; /* Arrange items vertically */
-    align-items:flex-start; /* Align items horizontally */
+    align-items: flex-start; /* Align items to the start horizontally */
 }
+
 #txt1{
-    font-size: 12px;
-    color: #ccc;
-    line-height: 30px;
-    height: 14px;
-    font-weight: 300;
-    margin: 4px 0% 0px 0px; /* Add margin for spacing */
+    font-size: 12px; /* Set font size */
+    color: #ccc; /* Set text color to light gray */
+    line-height: 30px; /* Set line height */
+    height: 14px; /* Set height */
+    font-weight: 300; /* Set font weight */
+    margin: 4px 0% 0px 0px; /* Set margins */
 }
+
 #txt2 {
-    font-size: 14px;
-    line-height: 35px;
-    font-weight: 600;
-    color: white;
-    margin: 0px 0% 0px 0px; /* Add margin for spacing */
+    font-size: 14px; /* Set font size */
+    line-height: 35px; /* Set line height */
+    font-weight: 600; /* Set font weight */
+    color: white; /* Set text color to white */
+    margin: 0px 0% 0px 0px; /* Set margins */
 }
+
 /* box4 */
 #box4{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    /* background-color: orange; */
-    box-sizing: border-box;
-    height: 40px;
-    width: 900px;
-    margin: 10px 20px 5px 20px;
+    display: flex; /* Use flexbox layout for box4 */
+    justify-content: flex-start; /* Align items to the start horizontally */
+    align-items: center; /* Align items vertically */
+    /* background-color: orange; */ /* Background color commented out */
+    box-sizing: border-box; /* Include padding and border in total width and height of the element */
+    height: 40px; /* Set height */
+    width: 900px; /* Set width */
+    margin: 10px 20px 5px 20px; /* Set margins */
 }
+
 #inp:focus{
     outline: none; /* Remove default focus outline */
     border: 2px solid orange; /* Add orange border when input is focused */
 }
 
 #sel{
-    height: 40px;
-    width: 4.5em;
-    text-align: center;
-    background-color: #E6E6E6;
-    border: 0px;
-    border-top-left-radius: 8%;
-    border-bottom-left-radius: 8%;
+    height: 40px; /* Set height */
+    width: 4.5em; /* Set width */
+    text-align: center; /* Center text horizontally */
+    background-color: #E6E6E6; /* Set background color */
+    border: 0px; /* Remove border */
+    border-top-left-radius: 8%; /* Set border radius */
+    border-bottom-left-radius: 8%; /* Set border radius */
 }
+
 #inp{
-    height: 36.9px;
-    width: 790px;
-    padding: 0px;
-    
+    height: 36.9px; /* Set height */
+    width: 790px; /* Set width */
+    padding: 0px; /* Remove padding */
 }
+
 #inp::placeholder{
-    font-size: 15px;
-    text-indent: 5px;
-    
+    font-size: 15px; /* Set font size */
+    text-indent: 5px; /* Indent placeholder text */
 }
 
 #mag-glass{
-    margin: 0px;
-    height: 40px;
-    width: 45px;
-    border-top-right-radius: 8%;
-    border-bottom-right-radius:8%;
-    background-color: #FEBD69;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0px; /* Set margin */
+    height: 40px; /* Set height */
+    width: 45px; /* Set width */
+    border-top-right-radius: 8%; /* Set border radius */
+    border-bottom-right-radius:8%; /* Set border radius */
+    background-color: #FEBD69; /* Set background color */
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
 }
+
 #mag-glass i {
-    font-size: 22px; /* Adjust the font size to set the height of the icon */
+    font-size: 22px; /* Set font size */
+    /* Adjust the font size to set the height of the icon */
 }
+
 /* box5 */
 #box5{
-    color: white;
-    margin: 10px;
+    color: white; /* Set text color to white */
+    margin: 10px; /* Set margin */
 }
+
 #text1 {
-    color: #ccc;
-    font-size: 12px;
+    color: #ccc; /* Set text color to light gray */
+    font-size: 12px; /* Set font size */
 }
 
 /* box6 */
 #box6{
-    color: white;
-    margin: 10px;
+    color: white; /* Set text color to white */
+    margin: 10px; /* Set margin */
 }
+
 #t1{
-    font-size: 12px;
-    color: #ccc;
+    font-size: 12px; /* Set font size */
+    color: #ccc; /* Set text color to light gray */
 }
 
 /* last nav bar */
 #cart{
-    color: white;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    color: white; /* Set text color to white */
+    display: flex; /* Use flexbox layout */
+    justify-content: flex-end; /* Align items to the end horizontally */
+    align-items: center; /* Align items vertically */
 }
+
 #cart i {
-    font-size: 26px;
+    font-size: 26px; /* Set font size */
 }
+
 #cart p {
     margin-top: calc(40% - 20px); /* Adjust the margin-top */
 }
