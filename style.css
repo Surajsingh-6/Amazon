@@ -175,9 +175,83 @@
 .Border:hover{
     border:2px solid white;
 }
-/* .hero{
-    background-image: url(image.png);
-    height:500px;
-    width:100%;
-    background-size: cover;
-} */
+/* hero */
+.hero {
+    position: relative; /* Ensure the container has a relative position */
+    height: 50vh; /* Set the height of the container to viewport height */
+    overflow: hidden; /* Hide any overflow content */
+    background-size: cover; /* Ensure the background image covers the entire container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Define keyframes for scrolling through the images */
+@keyframes scrollImages {
+    0%, 100% { background-image: url('image.png'); } /* Start and end position, first image */
+    33.33% { background-image: url('image2.png'); } /* Transition to second image */
+    66.66% { background-image: url('image3.png'); } /* Transition to third image */
+}
+
+/* Apply animation to the background image */
+.hero {
+    animation: scrollImages 25s ease infinite ; /* Apply animation */
+}
+#msg{
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    width: 95%;
+    margin-top: 140px;
+    text-align: center;
+}
+#msg a {
+    text-decoration: none;
+    color: #1d8ea5;
+}
+#display{
+    background-color: #eeeeee;
+    height:62vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-blend-mode: multiply;
+}
+.display-box{
+    height:420px;
+    width:350px;
+    background-color: white;
+    margin: 30px 10px 30px 10px;   
+    
+}
+.display-box h2 {
+    padding: 25px 25px 25px 25px;
+}
+.display-box img {
+    height: 70%;
+    width: 90%;    
+}
+.display-box a {
+    text-decoration: none;
+    margin: 85px 25px 25px 25px;
+    font-size:14px ;
+    color: #72B0BC;
+}
+#pc{
+    width:80%;
+    margin: 0px 30px 10px 30px;
+}
+#crocs, #perfume {
+    
+    margin: 0px 30px 10px 15px;
+}
+#display2{
+    background-color: #eeeeee;
+    height:40h;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-blend-mode: multiply;
+}
