@@ -7,6 +7,7 @@
 #navbar{
     background-color: black; /* Set background color of navbar to black */
     height:60px; /* Set height of navbar to 60 pixels */
+    /* width:206vh; */
     display: flex; /* Use flexbox layout for navbar */
     justify-content: space-evenly; /* Distribute items evenly along the main axis */
 }
@@ -27,7 +28,7 @@
 }
 
 #loc{
-    margin: 0px 1.5px 18px 30px; /* Set margins of loc */
+    margin: 0px 0px 18px 30px; /* Set margins of loc */
 }
 
 #box3 {
@@ -42,7 +43,7 @@
     line-height: 30px; /* Set line height */
     height: 14px; /* Set height */
     font-weight: 300; /* Set font weight */
-    margin: 4px 0% 0px 0px; /* Set margins */
+    margin: 4px 0px 0px 0px; /* Set margins */
 }
 
 #txt2 {
@@ -145,3 +146,38 @@
 #cart p {
     margin-top: calc(40% - 20px); /* Adjust the margin-top */
 }
+#nav2{
+    background-color: #232F3E;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+#iconmenu{
+    font-size: 22px;
+    margin: 0px 5px 0px 25px;
+}
+#nav22{
+    margin-right: 20px;
+    font-size: 16px;
+    
+}
+#anc a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px 0px 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 7px 4px 7px 4px;
+}
+.Border:hover{
+    border:2px solid white;
+}
+/* .hero{
+    background-image: url(image.png);
+    height:500px;
+    width:100%;
+    background-size: cover;
+} */
