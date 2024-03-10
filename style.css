@@ -6,8 +6,8 @@
 
 #navbar{
     background-color: black; /* Set background color of navbar to black */
-    height:60px; /* Set height of navbar to 60 pixels */
-    /* width:206vh; */
+    height:8vh; /* Set height of navbar to 60 pixels */
+    width:99vw;
     display: flex; /* Use flexbox layout for navbar */
     justify-content: space-evenly; /* Distribute items evenly along the main axis */
 }
